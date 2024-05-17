@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+     background: url("./images/bg-desktop-dark.jpg") no-repeat center center fixed; /*Add the URL of your image here*/
+    background-size: cover;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 2rem;
+    border-radius: 10px;
+    width: 400px; 
+}
+
+
+
+header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    color: gray;
+}
+
+.todo-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-list li {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #444;
+}
+
+.todo-list li input[type="checkbox"] {
+    margin-right: 1rem;
+}
+
+.todo-list li label {
+    flex: 1; 
+}
+
+.todo-list li.completed label {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.todo-list li button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.filters span {
+    flex: 1; 
+}
+
+.filters .filter {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+
+.filters .filter.active {
+    border-bottom: 2px solid #4b6cb7;
+}
+
+.clear-completed {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+/* .images {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+
+} */
+
+/* .head {
+    margin-top: 0;
+} */
+
+
+@media screen and (max-width: 768px) {
+    
+}
